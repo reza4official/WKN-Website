@@ -1,9 +1,63 @@
-.navbar-dark {
-  background-color: #000072;
+.pagewide {
+  height: 28px;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  .col {
+    color: #000072;
+  }
 }
 
-.navbar-brand {
+.navbar {
+  min-height: 78px;
+  background: #000072 !important;
+  font-family: "Assistant", sans-serif;
+  font-size: 25px;
   img {
-    max-height: 55px;
+    height: 55px !important;
+  }
+
+  .nav-item {
+    margin-left: 70px;
+    .nav-link {
+      color: #ffffff !important;
+    }
+    .nav-link:hover {
+      color: #fe9101 !important;
+    }
+  }
+  .navbar-toggler {
+    border-color: #ffffff;
+    border-width: 2px;
+  }
+  .navbar-toggler:hover {
+    border-color: #fe9101;
+    border-width: 2px;
+  }
+  .dropdown:hover {
+    .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      .dropdown-item {
+        font-size: 22px;
+        color: #000072;
+        font-weight: 450;
+      }
+    }
+  }
+
+  .language-switcher {
+    margin-left: 55px;
+    line-height: 65px;
+    .bahasa {
+      color: #ffffff;
+    }
+    img {
+      height: 30px !important;
+    }
+    .english {
+      color: #ffffff;
+    }
   }
 }
