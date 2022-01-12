@@ -6,15 +6,17 @@
   font-size: 16px;
 }
 
-.pagewide .col {
+.pagewide .pagewide-item {
   color: #000072;
 }
 
 .navbar {
-  min-height: 78px;
+  height: auto;
+  width: auto;
   background: #000072 !important;
   font-family: "Assistant", sans-serif;
   font-size: 25px;
+  text-align: center;
 }
 
 .navbar img {
@@ -22,7 +24,7 @@
 }
 
 .navbar .nav-item {
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .navbar .nav-item .nav-link {
@@ -52,22 +54,46 @@
   font-size: 22px;
   color: #000072;
   font-weight: 450;
+  text-align: center;
 }
 
 .navbar .language-switcher {
-  margin-left: 55px;
-  line-height: 65px;
-}
-
-.navbar .language-switcher .bahasa {
-  color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  font-size: 25px;
 }
 
 .navbar .language-switcher img {
-  height: 30px !important;
+  height: 34px !important;
+}
+
+.navbar .language-switcher .bahasa {
+  color: #ffffff !important;
+}
+
+.navbar .language-switcher .bahasa:hover {
+  color: #fe9101 !important;
 }
 
 .navbar .language-switcher .english {
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+.navbar .language-switcher .english:hover {
+  color: #fe9101 !important;
+}
+
+.border-right {
+  height: 55px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.border-left {
+  height: 30px;
+  margin-top: 4px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=main.css.map */
