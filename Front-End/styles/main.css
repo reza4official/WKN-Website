@@ -96,4 +96,33 @@
       -ms-grid-row-align: center;
       align-self: center;
 }
+
+.carousel {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-text {
+  font-family: "Assistant", sans-serif;
+  margin-left: 40%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-text h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000072;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-text p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000072;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-image img {
+  margin-left: 10%;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=main.css.map */

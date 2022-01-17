@@ -81,16 +81,35 @@
   align-self: center;
 }
 
-// .language-switcher {
-//   margin-left: 55px;
-//   // line-height: 20px;
-//   .bahasa {
-//     color: #ffffff;
-//   }
-//   img {
-//     height: 30px !important;
-//   }
-//   .english {
-//     color: #ffffff;
-//   }
-// }
+.carousel {
+  margin-top: 100px;
+
+  margin-bottom: 100px;
+  .carousel-inner {
+    .carousel-item {
+      .carousel-text {
+        font-family: "Assistant", sans-serif;
+        margin-left: 40%;
+        margin-right: 10%;
+        text-align: justify;
+
+        h3 {
+          font-size: 28px;
+          font-weight: 700;
+          color: #000072;
+        }
+        p {
+          font-size: 24px;
+          font-weight: 600;
+          color: #000072;
+        }
+      }
+      .carousel-image {
+        img {
+          margin-left: 10%;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
