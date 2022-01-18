@@ -102,6 +102,10 @@
   padding-bottom: 100px;
 }
 
+.carousel .carousel-indicators li {
+  background-color: #000072;
+}
+
 .carousel .carousel-inner .carousel-item .carousel-text {
   font-family: "Assistant", sans-serif;
   margin-left: 40%;
@@ -110,13 +114,13 @@
 }
 
 .carousel .carousel-inner .carousel-item .carousel-text h3 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: #000072;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-text p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   color: #000072;
 }
@@ -124,5 +128,27 @@
 .carousel .carousel-inner .carousel-item .carousel-image img {
   margin-left: 10%;
   border-radius: 10px;
+}
+
+.carousel .carousel-control-prev img,
+.carousel .carousel-control-next img {
+  height: 40px;
+}
+
+.anak-perusahaan {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.anak-perusahaan h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #000072;
+}
+
+.anak-perusahaan img {
+  height: auto;
+  width: 1100px;
 }
 /*# sourceMappingURL=main.css.map */
