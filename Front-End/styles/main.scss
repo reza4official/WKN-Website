@@ -96,8 +96,6 @@
     .carousel-item {
       .carousel-text {
         font-family: "Assistant", sans-serif;
-        margin-left: 40%;
-        margin-right: 10%;
         text-align: justify;
 
         h3 {
@@ -113,7 +111,6 @@
       }
       .carousel-image {
         img {
-          margin-left: 10%;
           border-radius: 10px;
         }
       }
@@ -123,6 +120,7 @@
   .carousel-control-next {
     img {
       height: 40px;
+      width: auto;
     }
   }
 }
@@ -208,10 +206,12 @@ footer {
   }
 
   .copyright-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center;
+    max-height: 43px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #ffffff;
     color: #000072;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
