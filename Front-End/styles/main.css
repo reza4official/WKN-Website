@@ -83,10 +83,11 @@
 }
 
 .border-right {
-  height: 55px;
+  height: 65px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  border-width: 2px !important;
 }
 
 .border-left {
@@ -95,6 +96,8 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  border-color: #fe9101 !important;
+  border-width: 2px !important;
 }
 
 .carousel {
@@ -150,5 +153,78 @@
 .anak-perusahaan img {
   height: auto;
   width: 1100px;
+}
+
+footer {
+  padding-top: 28px;
+  background-image: url("../images/footer_placeholder@2x.png");
+  font-family: "Assistant", sans-serif;
+}
+
+footer .top-menu {
+  margin-bottom: 65px;
+}
+
+footer .top-menu a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+footer .top-menu a:hover {
+  color: #fe9101;
+}
+
+footer .top-menu .border-right {
+  height: 28px;
+  border-color: #fe9101 !important;
+  border-width: 2px !important;
+}
+
+footer .main-menu {
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+footer .main-menu h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .main-menu p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+footer .main-menu .office-section .office-caption img,
+footer .main-menu .office-section .phone-caption img,
+footer .main-menu .office-section .email-caption img,
+footer .main-menu .phone-section .office-caption img,
+footer .main-menu .phone-section .phone-caption img,
+footer .main-menu .phone-section .email-caption img,
+footer .main-menu .email-section .office-caption img,
+footer .main-menu .email-section .phone-caption img,
+footer .main-menu .email-section .email-caption img {
+  padding: 0px 0px;
+  height: auto;
+  width: 48px;
+}
+
+footer .main-menu .socmed-section .socmed .socmed-icon {
+  margin-left: auto;
+}
+
+footer .main-menu .socmed-section .socmed .socmed-icon img {
+  height: 40px;
+  width: auto;
+}
+
+footer .copyright-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  color: #000072;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */
