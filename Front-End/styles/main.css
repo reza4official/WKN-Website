@@ -246,10 +246,6 @@ footer .copyright-section {
   font-size: 16px;
 }
 
-main {
-  background-color: #c8c8c8;
-}
-
 .section-profile-header {
   min-height: 100px;
   border-bottom: #000072;
@@ -258,8 +254,7 @@ main {
 
 .section-profile-content {
   margin-top: -155px;
-  margin-left: 71px;
-  min-height: 100vh;
+  margin-left: 200px;
 }
 
 .section-profile-content .breadcrumb {
@@ -277,5 +272,14 @@ main {
 
 .section-profile-content .breadcrumb-item.active {
   font-weight: 600;
+}
+
+.company-profile-section .company-profile img {
+  width: 315px;
+  margin-top: -8px;
+}
+
+.company-profile-section .company-profile .company-profile-content {
+  padding: 50px 115px 50px 115px;
 }
 /*# sourceMappingURL=main.css.map */

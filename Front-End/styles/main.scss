@@ -232,9 +232,9 @@ footer {
   }
 }
 
-main {
-  background-color: #c8c8c8;
-}
+// main {
+//   // background-color: #c8c8c8;
+// }
 
 .section-profile-header {
   min-height: 100px;
@@ -244,8 +244,7 @@ main {
 
 .section-profile-content {
   margin-top: -155px;
-  margin-left: 71px;
-  min-height: 100vh;
+  margin-left: 200px;
   .breadcrumb {
     background-color: transparent;
     padding: 0;
@@ -258,6 +257,18 @@ main {
     font-weight: 300;
     &.active {
       font-weight: 600;
+    }
+  }
+}
+
+.company-profile-section {
+  .company-profile {
+    img {
+      width: 315px;
+      margin-top: -8px;
+    }
+    .company-profile-content {
+      padding: 50px 115px 50px 115px;
     }
   }
 }
