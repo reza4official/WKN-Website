@@ -254,7 +254,6 @@ footer .copyright-section {
 
 .section-profile-content {
   margin-top: -155px;
-  margin-left: 200px;
 }
 
 .section-profile-content .breadcrumb {
@@ -275,11 +274,32 @@ footer .copyright-section {
 }
 
 .company-profile-section .company-profile img {
-  width: 315px;
+  width: 475px;
+  height: 900px;
   margin-top: -8px;
 }
 
 .company-profile-section .company-profile .company-profile-content {
+  font-family: "Assistant", sans-serif;
+  color: #000072;
   padding: 50px 115px 50px 115px;
+}
+
+.company-profile-section .company-profile .company-profile-content h4 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 29px;
+  text-decoration: underline;
+}
+
+.company-profile-section .company-profile .company-profile-content p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-device-width: 600px) {
+  .company-profile-section .company-profile .company-profile-content {
+    padding: 0px 10px 0px 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

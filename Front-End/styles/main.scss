@@ -232,10 +232,6 @@ footer {
   }
 }
 
-// main {
-//   // background-color: #c8c8c8;
-// }
-
 .section-profile-header {
   min-height: 100px;
   border-bottom: #000072;
@@ -244,7 +240,6 @@ footer {
 
 .section-profile-content {
   margin-top: -155px;
-  margin-left: 200px;
   .breadcrumb {
     background-color: transparent;
     padding: 0;
@@ -264,11 +259,30 @@ footer {
 .company-profile-section {
   .company-profile {
     img {
-      width: 315px;
+      width: 475px;
+      height: 900px;
       margin-top: -8px;
     }
     .company-profile-content {
+      font-family: "Assistant", sans-serif;
+      color: #000072;
       padding: 50px 115px 50px 115px;
+      h4 {
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 29px;
+        text-decoration: underline;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+
+    @media screen and (max-device-width: 600px) {
+      .company-profile-content {
+        padding: 0px 10px 0px 10px;
+      }
     }
   }
 }
