@@ -310,6 +310,12 @@ footer .copyright-section {
   .company-profile-section .company-profile .company-profile-content {
     padding: 0px 10px 0px 10px;
   }
+  .company-profile-section .company-profile .company-profile-content h4 {
+    font-size: 22px;
+  }
+  .company-profile-section .company-profile .company-profile-content p {
+    font-size: 16px;
+  }
 }
 
 .struktur-organisasi-section {
@@ -358,6 +364,12 @@ footer .copyright-section {
   font-weight: bold;
   font-size: 25px;
   text-decoration: underline;
+}
+
+@media screen and (max-device-width: 600px) {
+  .head-office-section .head-office-title h4 {
+    font-size: 22px;
+  }
 }
 
 .gmaps {

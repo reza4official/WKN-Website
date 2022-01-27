@@ -292,6 +292,12 @@ footer {
     @media screen and (max-device-width: 600px) {
       .company-profile-content {
         padding: 0px 10px 0px 10px;
+        h4 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -341,6 +347,13 @@ footer {
       font-weight: bold;
       font-size: 25px;
       text-decoration: underline;
+    }
+  }
+  @media screen and (max-device-width: 600px) {
+    .head-office-title {
+      h4 {
+        font-size: 22px;
+      }
     }
   }
 }
