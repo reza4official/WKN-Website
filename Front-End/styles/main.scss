@@ -344,3 +344,68 @@ footer {
     }
   }
 }
+
+.gmaps {
+  padding-bottom: 45px;
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 1100px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 1100px;
+  }
+}
+
+.gmaps-mobile {
+  padding-bottom: 45px;
+  .mapouter-mobile {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 350px;
+  }
+
+  .gmap_canvas-mobile {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 350px;
+  }
+}
+
+.map-details-menu {
+  .main-menu {
+    padding-bottom: 40px;
+    color: #ffffff;
+    h4 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .office-section,
+    .phone-section,
+    .email-section {
+      .office-caption,
+      .phone-caption,
+      .email-caption {
+        color: #000072;
+        img {
+          padding: 0px 0px;
+          height: auto;
+          width: 48px;
+        }
+      }
+    }
+  }
+}
