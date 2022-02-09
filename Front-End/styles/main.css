@@ -282,48 +282,54 @@ footer .copyright-section {
   font-weight: 600;
 }
 
-.company-profile-section .company-profile img {
-  width: 475px;
-  height: 900px;
-  margin-top: -8px;
-}
-
-.company-profile-section .company-profile .company-profile-content {
+.content-title-1 {
   font-family: "Assistant", sans-serif;
   color: #000072;
-  padding: 50px 115px 50px 115px;
+  padding: 50px 115px 0px 115px;
 }
 
-.company-profile-section .company-profile .company-profile-content h4 {
+.content-title-1 h4 {
   font-weight: bold;
   font-size: 25px;
   padding-bottom: 29px;
   text-decoration: underline;
 }
 
-.company-profile-section .company-profile .company-profile-content p {
+@media screen and (max-device-width: 600px) {
+  .content-title-1 {
+    padding: 0px 10px 0px 10px;
+  }
+  .content-title-1 h4 {
+    font-size: 22px;
+  }
+}
+
+.main-content-1 {
+  font-family: "Assistant", sans-serif;
+  color: #000072;
+  padding: 0px 115px 50px 115px;
+}
+
+.main-content-1 p {
   font-weight: 400;
   font-size: 18px;
 }
 
 @media screen and (max-device-width: 600px) {
-  .company-profile-section .company-profile .company-profile-content {
+  .main-content-1 {
     padding: 0px 10px 0px 10px;
   }
-  .company-profile-section .company-profile .company-profile-content h4 {
-    font-size: 22px;
-  }
-  .company-profile-section .company-profile .company-profile-content p {
+  .main-content-1 p {
     font-size: 16px;
   }
 }
 
-.struktur-organisasi-section {
+.content-title-2 {
   font-family: "Assistant", sans-serif;
   color: #000072;
 }
 
-.struktur-organisasi-section .struktur-organisasi-title h4 {
+.content-title-2 h4 {
   padding: 35px 0px 45px 15px;
   font-weight: bold;
   font-size: 25px;
@@ -331,7 +337,7 @@ footer .copyright-section {
 }
 
 @media screen and (max-device-width: 600px) {
-  .struktur-organisasi-section .struktur-organisasi-title h4 {
+  .content-title-2 h4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -340,6 +346,12 @@ footer .copyright-section {
     font-size: 22px;
     text-decoration: underline;
   }
+}
+
+.company-profile-section .company-profile img {
+  width: 480px;
+  height: 900px;
+  margin-top: -8px;
 }
 
 .struktur-organisasi-section .struktur-organisasi-content img {
@@ -351,24 +363,6 @@ footer .copyright-section {
     height: auto;
     width: 350px;
     padding-bottom: 45px;
-  }
-}
-
-.head-office-section {
-  font-family: "Assistant", sans-serif;
-  color: #000072;
-}
-
-.head-office-section .head-office-title h4 {
-  padding: 35px 0px 45px 15px;
-  font-weight: bold;
-  font-size: 25px;
-  text-decoration: underline;
-}
-
-@media screen and (max-device-width: 600px) {
-  .head-office-section .head-office-title h4 {
-    font-size: 22px;
   }
 }
 
@@ -447,5 +441,11 @@ footer .copyright-section {
   padding: 0px 0px;
   height: auto;
   width: 48px;
+}
+
+.project-list-section .project-list img {
+  width: 480px;
+  height: 900px;
+  margin-top: -8px;
 }
 /*# sourceMappingURL=main.css.map */
