@@ -349,7 +349,7 @@ footer .copyright-section {
 }
 
 .company-profile-section .company-profile img {
-  width: 480px;
+  width: 476px;
   height: 900px;
   margin-top: -8px;
 }
@@ -426,6 +426,7 @@ footer .copyright-section {
 .map-details-menu .main-menu .email-section .office-caption,
 .map-details-menu .main-menu .email-section .phone-caption,
 .map-details-menu .main-menu .email-section .email-caption {
+  font-family: "Assistant", sans-serif;
   color: #000072;
 }
 
@@ -444,7 +445,7 @@ footer .copyright-section {
 }
 
 .project-list-section .project-list img {
-  width: 480px;
+  width: 476px;
   height: 900px;
   margin-top: -8px;
 }
