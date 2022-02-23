@@ -322,7 +322,6 @@ footer {
     li.bold-list:hover {
       list-style: disc;
       color: #fe9101;
-      // font-weight: 400;
     }
 
     li.light-list {
@@ -331,8 +330,7 @@ footer {
     }
 
     li.light-list:hover {
-      list-style: circle;
-      // font-weight: 500;
+      color: #fe9101;
     }
   }
 }
