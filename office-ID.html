@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. Wiratama Karya Nugraha | OFFICE</title>
+    <link
+      rel="stylesheet"
+      href="Front-End/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Front-End/styles/main.css" />
+  </head>
+  <body>
+    <!-- Above Navigation Bar Section -->
+    <section>
+      <div
+        class="container bg-transparent d-none d-sm-none d-md-block justify-content-center"
+      >
+        <div class="row row-cols-3 pagewide mt-1 mb-0">
+          <div class="col pagewide-item">Telepon: (0411) 434259</div>
+          <div class="col pagewide-item">Email: wkn_mks@yahoo.co.id</div>
+          <div class="col pagewide-item">Jam: Sen-Sab: 09.00 - 17.00</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Bar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand mr-auto">
+          <img
+            src="Front-End/images/Logo/Transparent 2 -  Logo WKN@2x.png"
+            alt="Logo WKN"
+            class="logoWKN"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mx-auto my-auto">
+            <li class="nav-item ml-md-auto ml-lg-3">
+              <a href="index-ID.html" class="nav-link">BERANDA</a>
+            </li>
+            <li class="nav-item dropdown ml-md-auto ml-lg-3">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                >PERUSAHAAN</a
+              >
+              <div class="dropdown-menu">
+                <a href="profile-ID.html" class="dropdown-item">PROFIL</a>
+                <div class="dropdown-divider"></div>
+                <a href="organisasi-ID.html" class="dropdown-item"
+                  >ORGANISASI</a
+                >
+                <div class="dropdown-divider"></div>
+                <a href="office-ID.html" class="dropdown-item">KANTOR</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown ml-md-auto ml-lg-3">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                >LINI BISNIS</a
+              >
+              <div class="dropdown-menu">
+                <a href="project-list-ID.html" class="dropdown-item"
+                  >INFRATRUKTUR</a
+                >
+              </div>
+            </li>
+            <li class="nav-item ml-md-auto ml-lg-3">
+              <a href="#" class="nav-link">KARIR</a>
+            </li>
+            <li class="nav-item dropdown ml-md-auto ml-lg-3">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                >SUMBER DAYA MANUSIA</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">IKHTISAR</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-aml-md-auto ml-lg-3">
+              <a href="#" class="nav-link">KONTAK KAMI</a>
+            </li>
+          </ul>
+          <div class="border-right mx-4"></div>
+          <div class="language-switcher">
+            <a href="office-ID.html" class="bahasa mr-3">
+              <img
+                class="id-flag mr-3 active"
+                src="Front-End/images/Icon/Indonesia Flag@2x.png"
+                alt="ID Flag"
+              />ID
+            </a>
+          </div>
+          <div class="border-left"></div>
+          <div class="language-switcher">
+            <a href="office-EN.html" class="english ml-3">
+              EN<img
+                class="en-flag ml-3"
+                src="Front-End/images/Icon/GBR Flag@2x.png"
+                alt="EN Flag"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Breadcrumb Section -->
+      <section class="section-profile-header"><hr /></section>
+      <section class="section-profile-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col p-2 p-md-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">PERUSAHAAN</li>
+                  <li class="breadcrumb-item active">KANTOR</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Office Section -->
+      <section class="head-office-section">
+        <div class="container">
+          <div
+            class="content-title-2 d-flex justify-content-center justify-content-md-start"
+          >
+            <h4>KANTOR PUSAT</h4>
+          </div>
+          <div class="head-office-content d-flex justify-content-center">
+            <!-- Desktop Maps -->
+            <div class="gmaps d-none d-sm-none d-md-block">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="1100"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=PT.%20WIRATAMA%20KARYA%20NUGRAHA%20&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+            <!-- Mobile Maps -->
+            <div class="gmaps-mobile d-block d-sm-block d-md-none">
+              <div class="mapouter-mobile">
+                <div class="gmap_canvas-mobile">
+                  <iframe
+                    width="350"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=PT.%20WIRATAMA%20KARYA%20NUGRAHA&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Details Section -->
+        <div class="container-fluid">
+          <div class="map-details-menu">
+            <div
+              class="row main-menu justify-content-start justify-content-md-center"
+            >
+              <!-- Office Section -->
+              <div
+                class="office-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="office-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/office-icon-darkblue@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>KANTOR PUSAT</h4>
+                      <p>
+                        PT. WIRATAMA KARYA NUGRAHA <br />
+                        Jl. Toddopuli 7 No. 41 <br />
+                        Manggala - Kota Makassar, 40223
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Phone Section -->
+              <div
+                class="phone-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="phone-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/phone-icon-darkblue@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>TELEPON</h4>
+                      <p>(0411) 434259</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Email Section -->
+              <div
+                class="email-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="email-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/mail-icon-darkblue@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>EMAIL</h4>
+                      <p>wkn_mks@yahoo.co.id</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="section-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- Footer Top Menu Section -->
+            <div class="row top-menu justify-content-center">
+              <a
+                href="profile.html"
+                class="col-3 col-md-1 d-flex justify-content-center"
+              >
+                Tentang Kami</a
+              >
+              <div class="border-right"></div>
+              <a href="#" class="col-3 col-md-1 d-flex justify-content-center"
+                >Kontak</a
+              >
+              <div class="border-right"></div>
+              <a href="#" class="col-3 col-md-1 d-flex justify-content-center"
+                >Karir</a
+              >
+              <div class="border-right"></div>
+              <a href="#" class="col-3 col-md-1 d-flex justify-content-center"
+                >Media</a
+              >
+              <div class="border-right"></div>
+              <a
+                href="office.html"
+                class="col-3 col-md-1 d-flex justify-content-center"
+                >Kantor</a
+              >
+            </div>
+            <!-- Footer Main Menu Section -->
+            <div
+              class="row main-menu justify-content-start justify-content-md-center"
+            >
+              <!-- Office Section -->
+              <div
+                class="office-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="office-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/office-icon-white@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>KANTOR PUSAT</h4>
+                      <p>
+                        PT. WIRATAMA KARYA NUGRAHA <br />
+                        Jl. Toddopuli 7 No. 41 <br />
+                        Manggala - Kota Makassar, 40223
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Phone Section -->
+              <div
+                class="phone-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="phone-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/phone-icon-white@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>TELEPON</h4>
+                      <p>(0411) 434259</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Email Section -->
+              <div
+                class="email-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center ml-3 ml-md-0"
+              >
+                <div class="email-caption">
+                  <ul class="row list-unstyled">
+                    <li>
+                      <img
+                        class="mr-3"
+                        src="Front-End/images/Icon/mail-icon-white@2x.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <h4>EMAIL</h4>
+                      <p>wkn_mks@yahoo.co.id</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Social Media Section -->
+              <div
+                class="socmed-section col-12 col-md-2 d-flex justify-content-start justify-content-md-center"
+              >
+                <div class="socmed-caption">
+                  <h4>MEDIA SOSIAL</h4>
+                  <div class="socmed">
+                    <ul class="row socmed-icon list-unstyled">
+                      <li>
+                        <a href="linkedin.com"
+                          ><img
+                            class="linkedin-ic"
+                            src="Front-End/images/Icon/linkedin-icon-white@2x.png"
+                            alt="LinkedIn"
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="instagram.com"
+                          ><img
+                            class="instagram-ic"
+                            src="Front-End/images/Icon/instagram-icon-white@2x.png"
+                            alt="Instagram"
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="facebook.com"
+                          ><img
+                            class="facebook-ic"
+                            src="Front-End/images/Icon/facebook-icon-white@2x.png"
+                            alt="Facebook"
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="youtube.com"
+                          ><img
+                            class="youtube-ic"
+                            src="Front-End/images/Icon/youtube-icon-white@2x.png"
+                            alt="Youtube"
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row copyright-section justify-content-center align-items-center"
+        >
+          <div class="col-auto font-weight-light">
+            2021 Hak Cipta PT. WIRATAMA KARYA NUGRAHA | Semua hak dilindungi
+            undang-undang | Dibuat di Makassar
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Front-End/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="Front-End/libraries/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>
